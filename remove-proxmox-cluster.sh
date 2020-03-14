@@ -1,3 +1,6 @@
+#!/bin/sh
+# Removes cluster from proxmox
+
 service pve-cluster stop
 service corosync stop
 pmxcfs -l
